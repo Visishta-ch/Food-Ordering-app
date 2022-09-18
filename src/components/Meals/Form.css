@@ -1,0 +1,11 @@
+.form-item{
+    float: right;
+}
+input{
+    width: 35px;
+    margin: 5px;
+}
+
+label{
+    font-style: bold;
+}

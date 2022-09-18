@@ -1,7 +1,8 @@
-.btn{
-    width:15rem;
+.cart-btn{
+    width:250px;
     height: 40px;
-    padding: 3px;
+    padding: 3px auto;
+    margin: 12px auto;
     border-radius: 5rem;
     color:aliceblue;
     background-color:#ab3154;
@@ -11,11 +12,10 @@
     letter-spacing:0.2rem;
 }
 
-.btn-1{
+.cart-btn-1{
     border-radius: 1rem;
     background-color:rosybrown;
-    /* left:10px; */
-    width:30px;
+    width:40px;
     border-style: none;
     padding: 2px;
     margin-left: 15px;
@@ -24,8 +24,6 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 14px;
     
+    
 }
 
-#img{
-    padding: 2rem;
-}

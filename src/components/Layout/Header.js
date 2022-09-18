@@ -11,7 +11,7 @@ const Header = (props) => {
     <>
         <header className={classes.header}>
             <h1>Favor FooDs</h1>
-            {/* <button>Cart</button> */}
+          
 
             <CartButton  img = <BiCart /> 
                     title='Your Cart' 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './MealsList.css';
+import Form from './Form.js'
 
 const dummyList = [
     {   id: 1,
@@ -20,10 +21,13 @@ const MealsList = (props) => {
     
      <ul>
         {dummyList.map((item) => <li className='list-item'>
+        <Form/>
            <h3>{item.name}</h3>  
-           <p className="list"> {item.description} </p>
-           <p className="num" >${item.price}</p>
+           <p className="list-description"> {item.description} </p>
+           <p className="list-price" >${item.price}</p>
+           
         </li>)}
+
      </ul>
 
       

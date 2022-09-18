@@ -7,13 +7,10 @@ import './CartButton.css';
 const Button = (props) => {
   return (
     <div>
-        <button className='btn' >
-
-         <span> {props.img} </span>
-            
-           <span> {props.title} </span>
-           
-            <button className='btn-1'>{props.value}</button>  
+        <button className='cart-btn' >
+          {props.img}  {props.title} 
+         
+          <button className='cart-btn-1'>{props.value}</button>  
             
         </button>
     </div>
