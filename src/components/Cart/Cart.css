@@ -1,0 +1,31 @@
+
+.cart-items{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 20rem;
+    overflow: auto;
+
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+.actions{
+    text-align: right;
+}
+
+.cls{
+    width: 100px;
+    height: 40px;
+    padding: 2px;
+    margin: 2px auto;
+    border-radius: 5rem;
+    color:aliceblue;
+    background-color:#ab3154;
+}

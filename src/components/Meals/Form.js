@@ -7,7 +7,7 @@ const Form = () => {
     <>
     <form className='form-item'>
         <label>Amount</label>
-        <input value = '1'/> <br/>
+        <input type = 'number' value = '1'/> <br/>
         <Button title="+ Add"></Button>
     </form>
     
