@@ -4,9 +4,10 @@ import Summary from '../../components/Meals/Summary';
 import CartButton from './CartButton';
 import {BiCart} from 'react-icons/bi';
 
-
 import classes from './Header.module.css'
 const Header = (props) => {
+
+
   return (
     <>
         <header className={classes.header}>
@@ -15,7 +16,9 @@ const Header = (props) => {
 
             <CartButton  img = <BiCart /> 
                     title='Your Cart' 
+                    onClick={props.onShowCartList}
                     value = '0'
+                    
                    >
                
         

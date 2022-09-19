@@ -18,14 +18,33 @@
 
 .actions{
     text-align: right;
+
 }
 
 .cls{
-    width: 100px;
+    width: 90px;
     height: 40px;
     padding: 2px;
-    margin: 2px auto;
+    margin-left:1.5rem;
     border-radius: 5rem;
     color:aliceblue;
+    border-color:#ab3154;
     background-color:#ab3154;
+}
+.cls:hover{
+    color: yellow;
+}
+.cls-close{
+    width: 90px;
+    height: 40px;
+    padding: 2px;
+    margin: 3px auto;
+    border-radius: 5rem;
+    color:#ab3154;
+    border-color:#ab3154;
+     
+}
+
+.cls-close:hover{
+    color: navy;
 }

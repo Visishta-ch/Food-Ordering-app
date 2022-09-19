@@ -7,10 +7,10 @@ import './CartButton.css';
 const Button = (props) => {
   return (
     <div>
-        <button className='cart-btn' >
-          {props.img}  {props.title} 
+        <button className='cart-btn' onClick= {props.onClick} >
+          {props.img} {props.title} 
          
-          <button className='cart-btn-1'>{props.value}</button>  
+          <button className='cart-btn-1' >{props.value}</button>  
             
         </button>
     </div>
