@@ -3,8 +3,9 @@ import mealsImage from '../../assets/image1.jpg';
 import Summary from '../../components/Meals/Summary';
 import CartButton from './CartButton';
 import {BiCart} from 'react-icons/bi';
-
+// import Cartcontext from '../../store/Cartcontext';
 import classes from './Header.module.css'
+
 const Header = (props) => {
 
 
@@ -14,14 +15,13 @@ const Header = (props) => {
             <h1>Favor FooDs</h1>
           
 
-            <CartButton  img = <BiCart /> 
+            <CartButton  onClick = {props.onShowCartList} img = <BiCart /> 
                     title='Your Cart' 
-                    onClick={props.onShowCartList}
+                    
                     value = '0'
                     
                    >
-               
-        
+                  
             </CartButton>
         </header>
         <div className={classes['main-image']}>

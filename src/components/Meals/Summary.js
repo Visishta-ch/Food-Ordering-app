@@ -1,22 +1,19 @@
-import React from 'react'
-import './Summary.css';
+import classes from './Summary.module.css';
 
-const Summary = (props) => {
+const Summary = () => {
   return (
-    <>
-       <section className='content'>
-       <h2>Delicious Food, Delivered To You</h2>
-        <p>
-            Choose your favorite meal from our broad selection of available meals
-            and enjoy a delicious lunch or dinner at home.
-        </p>
-        <p>
-            All our meals are cooked with high-quality ingredients, just-in-time and
-            of course by experienced chefs!
-        </p>
-       </section> 
-    </>
-  )
-}
+    <section className={classes.summary}>
+      <h2>Delicious Food, Delivered To You</h2>
+      <p>
+        Choose your favorite meal from our broad selection of available meals
+        and enjoy a delicious lunch or dinner at home.
+      </p>
+      <p>
+        All our meals are cooked with high-quality ingredients, just-in-time and
+        of course by experienced chefs!
+      </p>
+    </section>
+  );
+};
 
-export default Summary
+export default Summary;
