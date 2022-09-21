@@ -4,7 +4,8 @@ const MealItem = (props) => {
   const price = `$${props.price.toFixed(2)}`;
 
   return (
-    <li className={classes.meal}>
+    <li className={classes.meal} id = {props.id}>
+    
       <div>
         <h3>{props.name}</h3>
         <div className={classes.description}>{props.description}</div>
@@ -12,7 +13,7 @@ const MealItem = (props) => {
       </div>
       <div>
         <MealItemForm id={props.id} item={props}/>
-        {console.log(props)}
+        {/* {console.log(props)} */}
       </div>
     </li>
   );

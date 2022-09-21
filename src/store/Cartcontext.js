@@ -1,10 +1,14 @@
-import React from 'react'
+import React ,{useState} from 'react'
 
 const Cartcontext = React.createContext({
     items: [],
+    totalAmount: 0 ,
+    addItems : (item) => {
 
-    addItems : (item) => {},
-    removeItems : (id) => {}
+    },
+    removeItems : (id) => {
+
+    }
 })
 
 export default Cartcontext
