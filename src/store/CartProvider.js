@@ -11,11 +11,10 @@ const CartProvider = (props) => {
       const itemIdx = existingItems.findIndex((i) => i.id === item.id);
 
       if (itemIdx !== -1) {
-      
-        
-        console.log("already exists");
-        alert('item already exists. Please update quantity in cart list')
-      
+          existingItems[itemIdx].quantity = Number(existingItems[itemIdx].quantity)+1;
+          setItems(existingItems)
+          console.log("already exists");
+         
         } else {
             setItems([...items, item]);
           }
